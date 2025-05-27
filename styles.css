@@ -1,0 +1,43 @@
+/* Apply a smooth blue gradient background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #003366, #004c99, #0073e6); /* Blue gradient */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container styling */
+.converter-container {
+    background: rgba(255, 255, 255, 0.1); /* Transparent effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%;
+}
+
+/* Input fields */
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0073e6;
+    border-radius: 5px;
+    background-color: #004c99;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Labels */
+label {
+    font-size: 18px;
+}
+
+/* Headings with a stylish glow */
+h1 {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
